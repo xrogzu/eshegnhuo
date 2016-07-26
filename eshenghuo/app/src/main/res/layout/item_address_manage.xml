@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="275px"
+    android:paddingBottom="50px">
+<com.zhy.autolayout.AutoRelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="张某"
+        android:textSize="43px"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="36px"
+        android:id="@+id/address_manage_name"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18747338921"
+        android:layout_marginTop="50px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26px"
+        android:id="@+id/address_manage_phone"
+        />
+</com.zhy.autolayout.AutoRelativeLayout>
+    <com.zhy.autolayout.AutoLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="55px">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[默认地址]"
+            android:textColor="@color/themeColor"
+            android:layout_marginLeft="36px"
+            android:id="@+id/address_manage_default"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="山东省青岛市市南区香港中路38号丰和广场B座601"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:id="@+id/address_manage_address"/>
+    </com.zhy.autolayout.AutoLinearLayout>
+</com.zhy.autolayout.AutoLinearLayout>

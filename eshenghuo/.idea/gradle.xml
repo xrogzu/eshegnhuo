@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/PullToRefresh" />
+            <option value="$PROJECT_DIR$/libraries/autolayout" />
+            <option value="$PROJECT_DIR$/libraries/photoView" />
+            <option value="$PROJECT_DIR$/libraries/pickerview" />
+            <option value="$PROJECT_DIR$/libraries/updateApp" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/libraries" />
+            <option value="$PROJECT_DIR$/libraries/PullToRefresh" />
+            <option value="$PROJECT_DIR$/libraries/autolayout" />
+            <option value="$PROJECT_DIR$/libraries/photoView" />
+            <option value="$PROJECT_DIR$/libraries/pickerview" />
+            <option value="$PROJECT_DIR$/libraries/updateApp" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

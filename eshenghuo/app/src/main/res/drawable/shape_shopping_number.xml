@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--绘制矩形或椭圆-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--圆角半径-->
+    <corners android:radius="0dp" />
+    <!--内部填充色-->
+    <solid android:color="@color/white" />
+    <!--边框-->
+    <stroke
+        android:width="2dp"
+        android:color="@color/greyE1E1E1" />
+</shape>

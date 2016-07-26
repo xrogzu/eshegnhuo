@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/register_phone"
+    android:hint="手机号"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_password"
+        android:hint="密码"/>
+     <EditText
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="确认密码"
+         android:id="@+id/confirm_password"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:text="注册"
+        android:gravity="center"
+        android:background="@color/themeColor"
+        android:id="@+id/register_confirm"/>
+</com.zhy.autolayout.AutoLinearLayout>
